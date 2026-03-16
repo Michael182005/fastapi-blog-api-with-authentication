@@ -6,7 +6,7 @@ from .. import schemas, database
 from sqlalchemy.orm import Session
 
 
-router = APIRouter(prefix="/blog", tags=["blogs"])
+router = APIRouter(prefix="/blog", tags=["Blogs"])
 
 
 @router.get("/", response_model=List[schemas.ShowBlog])

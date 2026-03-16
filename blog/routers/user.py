@@ -9,7 +9,7 @@ from blog.repository import user
 
 router = APIRouter(
     prefix = "/user",
-    tags = ["user"]
+    tags = ["User"]
 )
 
     
